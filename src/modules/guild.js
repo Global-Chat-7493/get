@@ -17,7 +17,7 @@ module.exports = async function guild(id) {
 
         res = request.data;
     } catch(err) {
-        throw err;
+        res = err.response;
     }
 
     return res;
