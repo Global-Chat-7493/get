@@ -1,6 +1,6 @@
 {
   "name": "@globalchat/get",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to get information about a user or guild using Global Chat.",
   "main": "src/index.js",
   "repository": {
