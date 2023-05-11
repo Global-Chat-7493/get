@@ -8,10 +8,10 @@ A package to get information about a user or guild using Global Chat.
 ```js
 const { guild } = require("@globalchat/get");
 
-const guildInfo = await guild(1234567890123456789);
+const guildInfo = await guild(123456789012345678);
 
 console.log(guildInfo);
-// {"guild":"1234567890123456789","banned":false,"registered":false,"welcome_messages_enabled":true}
+// {"guild":"123456789012345678","banned":false,"registered":false,"settings":{"welcome_messages_enabled":true}}
 ```
 
 ### user
@@ -19,8 +19,8 @@ console.log(guildInfo);
 ```js
 const { user } = require("@globalchat/get");
 
-const userInfo = await user(1234567890123456789);
+const userInfo = await user(123456789012345678);
 
 console.log(userInfo);
-// {"user":"1234567890123456789","banned":false,"roles":{"beta":false,"dev":false,"mod":false,"verified":false}}
+// {"user":"123456789012345678","banned":false,"roles":{"dev":false,"mod":false,"verified":false}}
 ```
